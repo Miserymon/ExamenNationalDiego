@@ -86,9 +86,8 @@
         android:textColor="#FFF"
         android:textSize="21sp"
         android:textAllCaps="false"
-        android:background="@drawable/rounded"
         android:gravity="center"
-        android:backgroundTint="#001E6C"
+        android:backgroundTint="#041239"
         android:id="@+id/btn_actualizar"/>
 
 </LinearLayout>
