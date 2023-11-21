@@ -44,6 +44,17 @@ dependencies {
     implementation("androidx.cardview:cardview:1.0.0")
     implementation("de.hdodenhof:circleimageview:3.1.0")
     implementation("com.github.bumptech.glide:glide:4.13.0")
-
     implementation("com.orhanobut:dialogplus:1.11@aar")
+
+    //mqtt
+    //implementation("org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.1.0")
+    //implementation("org.eclipse.paho:org.eclipse.paho.android.service:1.1.1"){
+    //    exclude("com.androidx.support:support-v4:20.0.0")
+    //    exclude("appcompat-v7")
+    //    exclude("support-v4")
+    //}
+
+    //implementation("com.androidx.support:support-v4:20.0.0")
+    //implementation("com.androidx.support:localbroadcastmanager:28.0.0")
+
 }

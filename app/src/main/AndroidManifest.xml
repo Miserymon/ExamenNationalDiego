@@ -15,6 +15,9 @@
         android:theme="@style/Theme.ExamenNationalDiego"
         tools:targetApi="31">
         <activity
+            android:name=".MQTT"
+            android:exported="false" />
+        <activity
             android:name=".Agregar"
             android:exported="false" />
         <activity

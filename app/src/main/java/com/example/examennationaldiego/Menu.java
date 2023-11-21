@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 public class Menu extends AppCompatActivity {
 
-    Button btnInv;
+    Button btnInv, btnMqtt;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +23,12 @@ public class Menu extends AppCompatActivity {
         btnInv = findViewById(R.id.btn_invt);
         btnInv.setOnClickListener(view -> {
             Intent intent = new Intent(Menu.this, InventarioXYZ.class);
+            startActivity(intent);
+        });
+
+        btnMqtt = findViewById(R.id.btn_mqtt);
+        btnMqtt.setOnClickListener(view -> {
+            Intent intent = new Intent(Menu.this, MQTT.class);
             startActivity(intent);
         });
     }
