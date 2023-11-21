@@ -10,6 +10,10 @@ public class MQTT extends AppCompatActivity {
 
     Button btncomback;
 
+    static String MQTTHOST = "tcp://nationalexam.cloud.shiftr.io:1883";
+    static String MQTTUSER = "nationalexam";
+    static String MQTTPASS = "xoEI1Hdm2YzT5guH";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
